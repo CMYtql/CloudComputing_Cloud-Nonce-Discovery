@@ -2,6 +2,7 @@
 comsm0010_CW
 
 To run the script:
+
 e.g. fab -f CNDtask.py task: D=3,N=6,T=2000
 
 
@@ -12,7 +13,7 @@ In detail, CND automatically start up N VMs(Virtual Machines) in the cloud, dist
 
 To run the scripts you need to:
 
-1. Install Python3, Pip3, Fabric3
+1. Install Python3, Pip3, Boto3, Fabric3
 
 2. Configure AWS:
 The user's AWS access and secret keys:
