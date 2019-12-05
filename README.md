@@ -13,13 +13,15 @@ To run the scripts you need to:
 
 1. Install Python3
 
-2. Install Pip3
+2. Install pip3
 
-3. Install Boto3
+3. Install awscli through pip3
 
-4. Install Fabric3
+4. Install Boto3
 
-5. Configure AWS:
+5. Install Fabric3
+
+6. Configure AWS:
 ```
 
 [default]
