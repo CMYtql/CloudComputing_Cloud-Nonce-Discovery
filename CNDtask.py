@@ -68,4 +68,3 @@ def task(D,N,T):
     currentHost=initialVMs(int(N))
     # execute allocateVMs() based on the instances whose IP addresses are in the list currentHost
     execute(allocateVMs,D,N,T,currentHost,hosts=currentHost)
-#    execute(terminateVMs)
