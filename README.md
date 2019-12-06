@@ -21,7 +21,7 @@ To run the scripts you need to:
 
 5. Install Fabric3
 
-6. Configure AWS:
+6. AWS Configure:
 ```
 
 [default]
@@ -46,5 +46,11 @@ aws_session_token=your_aws_access_token_here
 
 
 ## How to run the script
+
+1. Enter to the Fabric folder:
+
+cd ...
+
+2. Use Fabric run command:
 
 e.g. fab -f CNDtask.py task: D=3,N=6,T=2000
