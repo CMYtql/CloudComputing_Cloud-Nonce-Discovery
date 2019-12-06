@@ -49,8 +49,13 @@ aws_session_token=your_aws_access_token_here
 
 1. Enter to the Fabric folder:
 
+```
 cd ...
+```
 
 2. Use Fabric run command:
 
-e.g. fab -f CNDtask.py task: D=3,N=6,T=2000
+e.g. 
+```
+fab -f CNDtask.py task: D=3,N=6,T=2000
+```
