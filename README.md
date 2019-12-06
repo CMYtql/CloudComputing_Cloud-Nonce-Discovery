@@ -11,7 +11,7 @@ In detail, CND automatically start up N VMs(Virtual Machines) in the cloud, dist
 
 To run the scripts you need to:
 
-1. Install Python3
+1. Install Python 3.7+
 
 2. Install pip3
 
@@ -32,7 +32,6 @@ aws_access_key_id=your_aws_access_id_here
 
 aws_secret_access_key=your_aws_access_key_here
 
-aws_session_token=your_aws_access_token_here
 
 ```
 
@@ -59,3 +58,5 @@ e.g.
 ```
 fab -f CNDtask.py task: D=3,N=6,T=2000
 ```
+
+## More details in report
